@@ -1,0 +1,93 @@
+.nav-div {
+  max-width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+nav {
+  background: url("./cool-background.png");
+}
+ul {
+  display: flex;
+  justify-content: space-between !important;
+}
+#nav-item {
+  margin: 0 10px;
+}
+#links {
+  font-family: serif;
+}
+
+.form {
+  max-width: 70%;
+  margin: auto;
+}
+.links-div {
+  display: flex;
+  justify-content: flex-end;
+}
+.nav-link {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+.heading-section {
+  max-width: 50%;
+  margin: auto;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.all-blogs {
+  max-width: 95%;
+  margin: auto;
+}
+.blogs {
+  background-color: aliceblue;
+  border-left: 7px solid palevioletred;
+  padding: 10px;
+  margin: 25px;
+  transition: box-shadow 0.4s ease-in-out;
+}
+.blog-title > h5 > a {
+  text-transform: capitalize;
+  text-decoration: none;
+}
+.blog-snippets > em {
+  text-transform: capitalize;
+}
+.blogs:hover {
+  box-shadow: 3px 3px 20px lightgrey;
+}
+.blog-details-header {
+  max-width: 80%;
+  margin: auto;
+  margin-top: 3em;
+  display: flex;
+  justify-content: space-between;
+}
+.blog-details {
+  max-width: 60%;
+  padding: 10px;
+}
+.delete-div {
+  display: flex;
+  align-items: center;
+}
+
+.delete-div button > a {
+  text-decoration: none;
+  color: white;
+}
+.banner {
+  height: 92vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("./cool-background-2.png");
+}
+.welcome {
+  font-size: 6em;
+}
